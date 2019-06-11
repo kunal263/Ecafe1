@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "410484002118",
+    "firebase_url": "https://shahrotees.firebaseio.com",
+    "project_id": "shahrotees",
+    "storage_bucket": "shahrotees.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410484002118:android:bd01042940fc7539",
+        "android_client_info": {
+          "package_name": "edu.msrit.shahrotees"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410484002118-l61t4upm2jcccsr18hp9ssl5h4gm5ptd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.msrit.shahrotees",
+            "certificate_hash": "450df02514623cf81815d1758b50fb253d7786c8"
+          }
+        },
+        {
+          "client_id": "410484002118-87q8bdbk4ooub7uhqr450hp0u0hsi1g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0ajUNmPbB8GcrNxJoGEeRBJ1_xLe4a3U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410484002118-87q8bdbk4ooub7uhqr450hp0u0hsi1g1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

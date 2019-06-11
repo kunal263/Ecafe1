@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderConfirmed"
+    android:orientation="vertical"
+    android:background="@color/lightBlack">
+
+    <View
+        android:layout_height="4dp"
+        android:foreground="@color/colorAccent"
+        android:layout_width="match_parent" />
+    <View
+        android:layout_height="2dp"
+        android:layout_width="match_parent" />
+
+
+
+    <ImageView android:id="@+id/image_view"
+        android:paddingTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="3dp"
+        android:src="@drawable/back_edited_1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Rs XXX"
+        android:textColor="@android:color/white"
+        android:id="@+id/totalPrice"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:textSize="17dp"
+        android:text="Paid Successfully to\nRIT Canteen"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="16dp"
+        android:textSize="17dp"
+        android:text="Order No XXX"
+        android:id="@+id/orderText"
+        android:textColor="@android:color/white" />
+
+    <View
+        android:layout_height="2dp"
+        android:foreground="#9C9C9C"
+        android:layout_gravity="center"
+        android:layout_width="75dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="32dp"
+        android:textSize="17dp"
+        android:id="@+id/time"
+        android:text="Time | Date"
+        android:textColor="@android:color/white" />
+
+
+
+    <ListView
+        android:layout_gravity="bottom"
+        android:id="@+id/confirmList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+
+
+
+
+
+</LinearLayout>
